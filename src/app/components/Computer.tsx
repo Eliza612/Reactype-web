@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { computerRendering2 } from "../assets";
+import { v22_computerRendering } from "../assets";
 import Image from "next/image";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
@@ -50,7 +50,7 @@ const Feedbacks: React.FC<Props> = ({ isCompInMiddle }) => {
         animate={mainControls}
       >
         <Image
-          src={isCompInMiddle ? computerRendering2 : computerRendering2}
+          src={isCompInMiddle ? v22_computerRendering : v22_computerRendering}
           alt="cube"
           className="mx-auto sm:display-none"
         />
@@ -93,7 +93,7 @@ const Feedbacks: React.FC<Props> = ({ isCompInMiddle }) => {
               Dive into ReacType{" "}
             </span>
             <motion.div>
-              <a href="https://app.reactype.dev/#/signup">
+              <a href="https://app.reactype.dev/#/login">
                 <ArrowOutward
                   sx={{
                     color: "#0671e3",

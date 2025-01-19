@@ -12,12 +12,14 @@ import bubbleCube from "./bubble-cube.jpg";
 import squareChromeBackground from "./square-chrome-bg.png";
 import whiteLastBackground from "./white-background-footer.jpg";
 import computerRendering from "./reactype-in-comp.png";
-import computerRendering2 from "./new-rt-comp-render.png";
+import computerRendering2 from "./TemplateforHompage1.png";
+import v22_computerRendering from "./v22_ComputerView.png";
 import RlogoBlue from "./R-logo-blue-large-3.png";
 import ReactypeAppIcon from "./reactype-white-logo-2.png";
 import blueWhiteBackgroundR from "./blue-R-white-bg.png";
 import SFRTLogo from "./SF_RT_LOGO_WHITE_NO_TEXT_2.png";
 import SFRTNoText from "./SF_LOGO_WHITE_NO_TEXT.png";
+import XIcon from "./x.svg";
 
 export {
   reacTypeLogoTwo,
@@ -35,9 +37,11 @@ export {
   whiteLastBackground,
   computerRendering,
   computerRendering2,
+  v22_computerRendering,
   RlogoBlue,
   ReactypeAppIcon,
   blueWhiteBackgroundR,
   SFRTLogo,
   SFRTNoText,
+  XIcon,
 };
